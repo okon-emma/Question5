@@ -7,6 +7,9 @@ Write a C# Web API that:
 ## Brief Explanation
 I was able to create an XML file (database.xml) to act as my data source and placed it in my root folder. Then I read from the XML file and casted it to an IList class.
 
+The default route for the API calls is:
+http://localhost:62952/api/country
+
 ## API Screenshots
 Get Method - Returns a list of countries <br />
 ![alt text](https://gtbtech5.s3.us-east-2.amazonaws.com/Q5A.PNG)<br />
