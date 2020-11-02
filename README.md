@@ -1,5 +1,8 @@
 # Question 5
-Write a C# Web API that returns a list of countries with from the IList class using the get method
+Write a C# Web API that:
+- returns a list of countries with from the IList class using the get method
+- adds a country to the list using the POST method
+- returns a particular country using its index from the list i.e get/{id}
 
 ## API Screenshots
 Get Method - Returns a list of countries <br />
