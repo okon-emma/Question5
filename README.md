@@ -12,6 +12,13 @@ http://localhost:62952/api/country
 
 For the Endpoints, I used LINQ to query the XML file to return the required data. I then used a class to represent my response and request.
 
+## Sample JSON for POST Request
+NB: Kindly note that the ID is automatically inserted into the country class object that would be sent to the server. This is done by incrementing based on the length of the items in the list.
+{
+    "code": "NG",
+    "name": "Nigeria"
+}
+
 ## API Screenshots
 Get Method - Returns a list of countries <br />
 ![alt text](https://gtbtech5.s3.us-east-2.amazonaws.com/Q5A.PNG)<br />
